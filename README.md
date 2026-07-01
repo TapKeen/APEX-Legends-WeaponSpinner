@@ -1,6 +1,6 @@
 # APEX Legends Weapon Spinner
 
-> 一款基于 APEX Legends 第 29 赛季武器数据的随机武器抽取工具，采用虚空传送门风格的动态抽选动画。
+> 一款用于游玩 APEX Legends 时的随机武器抽取工具，给你的下一场战局增加刺激的未知数吧！
 
 🇨🇳 简体中文 | [🇬🇧 English](./README.en.md)
 

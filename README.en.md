@@ -1,6 +1,6 @@
 # APEX Legends Weapon Spinner
 
-> A random weapon picker tool based on APEX Legends Season 29 weapon data, featuring a void portal-style dynamic draw animation.
+> A random weapon picker tool for APEX Legends, adding thrilling uncertainty to your next match!
 
 🇨🇳 [简体中文](./README.md) | 🇬🇧 English
 
