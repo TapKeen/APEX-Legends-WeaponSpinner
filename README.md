@@ -2,7 +2,7 @@
 
 > 一款基于 APEX Legends 第 29 赛季武器数据的随机武器抽取工具，采用虚空传送门风格的动态抽选动画。
 
-🇨🇳 简体中文 | [English](./README.en.md)
+🇨🇳 简体中文 | [🇬🇧 English](./README.en.md)
 
 ---
 
