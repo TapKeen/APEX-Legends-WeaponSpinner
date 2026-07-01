@@ -150,14 +150,6 @@ npm run preview
 
 ---
 
-## 部署
-
-本项目通过 GitHub Actions 自动部署到 GitHub Pages。每次向 `main` 分支推送代码后，会自动触发构建并部署。
-
-部署配置文件：[`.github/workflows/deploy.yml`](./.github/workflows/deploy.yml)
-
----
-
 ## 作者
 
 **MADE BY CYYLin_805**

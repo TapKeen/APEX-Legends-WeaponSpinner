@@ -150,14 +150,6 @@ npm run preview
 
 ---
 
-## Deployment
-
-This project is automatically deployed to GitHub Pages via GitHub Actions. Every push to the `main` branch triggers a build and deploy.
-
-Deployment config: [`.github/workflows/deploy.yml`](./.github/workflows/deploy.yml)
-
----
-
 ## Author
 
 **MADE BY CYYLin_805**
