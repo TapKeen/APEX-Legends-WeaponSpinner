@@ -57,6 +57,8 @@
 
 ## Weapon List
 
+> 📌 Using Season 29 weapon data
+
 ### Primary Weapons
 
 #### Assault Rifles
