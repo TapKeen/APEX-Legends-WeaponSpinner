@@ -2,13 +2,15 @@
 
 > A random weapon picker tool based on APEX Legends Season 29 weapon data, featuring a void portal-style dynamic draw animation.
 
-English | [简体中文](./README.md)
+🇨🇳 [简体中文](./README.md) | 🇬🇧 English
 
 ---
 
 ## Live Demo
 
 👉 **Try it now**: https://tapkeen.github.io/APEX-Legends-WeaponSpinner/
+
+> 📌 The weapon pool will be updated synchronously with weapon changes in future seasons.
 
 ---
 

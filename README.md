@@ -2,13 +2,15 @@
 
 > 一款基于 APEX Legends 第 29 赛季武器数据的随机武器抽取工具，采用虚空传送门风格的动态抽选动画。
 
-[English](./README.en.md) | 简体中文
+🇨🇳 简体中文 | [English](./README.en.md)
 
 ---
 
 ## 在线体验
 
 👉 **立即使用**：https://tapkeen.github.io/APEX-Legends-WeaponSpinner/
+
+> 📌 后续根据赛季更新的武器变动，抽取工具的武器库也会同步更新。
 
 ---
 
