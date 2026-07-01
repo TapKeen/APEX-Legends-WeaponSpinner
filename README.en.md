@@ -16,13 +16,11 @@ English | [简体中文](./README.md)
 
 ### Home Page
 
-![Home Page](./docs/en-home.png)
+<img src="./docs/en-home.png" width="50%" alt="Home Page" />
 
 ### Draw Result
 
-![Draw Result](./docs/en-result.png)
-
-> *Screenshots to be added. Place screenshots in the `docs/` directory: `en-home.png` (home page) and `en-result.png` (draw result).*
+<img src="./docs/en-result.png" width="50%" alt="Draw Result" />
 
 ---
 
@@ -41,13 +39,6 @@ English | [简体中文](./README.md)
 ### 🌐 Bilingual Support
 - One-click switch between Chinese and English
 - Weapon names in both languages
-
-### ✨ Void Portal Animation
-- Portal continuously rotates slowly
-- Multi-color ammo light effects surge into the portal during drawing
-- Rotation speed increases step by step for suspense
-- Weapon cards fly out of the portal with matching ammo color light trails
-- Portal gradually slows down and returns to idle speed after drawing
 
 ### 🎨 APEX-Style Color Scheme
 - Dark sci-fi background
