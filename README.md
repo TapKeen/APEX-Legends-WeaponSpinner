@@ -14,9 +14,15 @@
 
 ## 效果截图
 
-![APEX Legends Weapon Spinner](./docs/screenshot.png)
+### 初始页面
 
-> *截图待补充，你可以替换 `docs/screenshot.png` 为实际游戏截图。*
+![初始页面](./docs/cn-home.png)
+
+### 抽取结果
+
+![抽取结果](./docs/cn-result.png)
+
+> *截图待补充，请将截图放入 `docs/` 目录下，文件名分别为 `cn-home.png`（初始页面）和 `cn-result.png`（抽取结果）。*
 
 ---
 

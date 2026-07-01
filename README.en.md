@@ -14,9 +14,15 @@ English | [简体中文](./README.md)
 
 ## Screenshots
 
-![APEX Legends Weapon Spinner](./docs/screenshot.png)
+### Home Page
 
-> *Screenshot to be added. You can replace `docs/screenshot.png` with an actual screenshot.*
+![Home Page](./docs/en-home.png)
+
+### Draw Result
+
+![Draw Result](./docs/en-result.png)
+
+> *Screenshots to be added. Place screenshots in the `docs/` directory: `en-home.png` (home page) and `en-result.png` (draw result).*
 
 ---
 
