@@ -92,10 +92,10 @@ const Home: React.FC = () => {
           : (language === 'cn' ? '🎲 开始抽取' : '🎲 Spin Now')}
       </button>
 
-      {/* 底部信息 - 固定在右下角 */}
-      <div className="fixed bottom-4 right-4 text-right pointer-events-none">
-        <p className="text-gray-600 text-[10px] md:text-xs">MADE BY CYYLin_805</p>
-        <p className="text-gray-600 text-[10px] md:text-xs">2026/7/2  v1.2.0</p>
+      {/* 底部信息 - 固定在左下角 */}
+      <div className="fixed left-4 pointer-events-none" style={{ bottom: '12px' }}>
+        <p className="text-gray-600" style={{ fontSize: '10px' }}>MADE BY CYYLin_805</p>
+        <p className="text-gray-600" style={{ fontSize: '10px' }}>2026/7/2  v1.2.0</p>
       </div>
     </div>
   );
