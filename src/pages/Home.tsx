@@ -92,10 +92,10 @@ const Home: React.FC = () => {
           : (language === 'cn' ? '🎲 开始抽取' : '🎲 Spin Now')}
       </button>
 
-      {/* 底部信息 - 固定在页面最底部 */}
-      <div className="fixed bottom-4 left-0 w-full text-center pointer-events-none">
-        <p className="text-gray-600 text-xs">MADE BY CYYLin_805</p>
-        <p className="text-gray-600 text-xs">2026/7/3  v1.2.0</p>
+      {/* 底部信息 - 固定在右下角 */}
+      <div className="fixed bottom-4 right-4 text-right pointer-events-none">
+        <p className="text-gray-600 text-[10px] md:text-xs">MADE BY CYYLin_805</p>
+        <p className="text-gray-600 text-[10px] md:text-xs">2026/7/2  v1.2.0</p>
       </div>
     </div>
   );
