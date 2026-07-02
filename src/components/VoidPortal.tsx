@@ -323,10 +323,10 @@ const VoidPortal: React.FC<VoidPortalProps> = ({
 
       {/* 武器卡片区域 - 不预留空间 */}
       <div
-        className="flex flex-col md:flex-row gap-3 md:gap-5 justify-center items-center"
+        className="flex gap-3 md:gap-5 justify-center items-center"
         style={{
           marginTop: revealedWeapons.length > 0 ? 24 : 0,
-          maxHeight: revealedWeapons.length > 0 ? 600 : 0,
+          maxHeight: revealedWeapons.length > 0 ? 300 : 0,
           opacity: revealedWeapons.length > 0 ? 1 : 0,
           overflow: 'visible',
           transition: 'margin-top 0.4s ease, max-height 0.4s ease, opacity 0.4s ease',
@@ -363,7 +363,7 @@ const VoidPortal: React.FC<VoidPortalProps> = ({
               />
               {/* 武器卡片 */}
               <div
-                className="relative p-3 md:p-4 rounded-xl w-[180px] md:w-[210px]"
+                className="relative p-3 md:p-4 rounded-xl w-[160px] md:w-[210px]"
                 style={{
                   background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)',
                   border: `3px solid ${color}`,

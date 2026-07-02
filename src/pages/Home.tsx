@@ -49,7 +49,7 @@ const Home: React.FC = () => {
       </div>
 
       {/* 控制面板 */}
-      <div className="mb-4 md:mb-8 w-full max-w-md">
+      <div className="mb-4 md:mb-8">
         <ControlPanel
           language={language}
           onLanguageChange={setLanguage}
@@ -95,7 +95,7 @@ const Home: React.FC = () => {
       {/* 底部信息 - 固定在页面最底部 */}
       <div className="fixed bottom-4 left-0 w-full text-center pointer-events-none">
         <p className="text-gray-600 text-xs">MADE BY CYYLin_805</p>
-        <p className="text-gray-600 text-xs">2026/7/2  v1.0.0</p>
+        <p className="text-gray-600 text-xs">2026/7/3  v1.2.0</p>
       </div>
     </div>
   );

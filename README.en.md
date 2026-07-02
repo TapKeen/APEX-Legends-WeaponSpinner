@@ -150,11 +150,18 @@ npm run preview
 
 ---
 
+## Version History
+
+| Version | Date | Updates |
+|--------|------|---------|
+| v1.2.0 | 2026/7/3 | Added responsive layout for mobile and desktop devices |
+| v1.0.0 | 2026/7/2 | Initial release |
+
+---
+
 ## Author
 
 **MADE BY CYYLin_805**
-
-**2026/7/2  v1.0.0**
 
 ---
 
