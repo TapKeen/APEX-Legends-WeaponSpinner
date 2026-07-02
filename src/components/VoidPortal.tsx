@@ -203,7 +203,7 @@ const VoidPortal: React.FC<VoidPortalProps> = ({
   return (
     <div className="flex flex-col items-center">
       {/* 传送门 - 单个圆形 */}
-      <div className="relative" style={{ width: 320, height: 320 }}>
+      <div className="relative w-[240px] h-[240px] md:w-[320px] md:h-[320px]">
         {/* 外圈光晕 */}
         <div
           className="absolute rounded-full"
@@ -323,10 +323,10 @@ const VoidPortal: React.FC<VoidPortalProps> = ({
 
       {/* 武器卡片区域 - 不预留空间 */}
       <div
-        className="flex gap-5 justify-center"
+        className="flex flex-col md:flex-row gap-3 md:gap-5 justify-center items-center"
         style={{
           marginTop: revealedWeapons.length > 0 ? 24 : 0,
-          maxHeight: revealedWeapons.length > 0 ? 300 : 0,
+          maxHeight: revealedWeapons.length > 0 ? 600 : 0,
           opacity: revealedWeapons.length > 0 ? 1 : 0,
           overflow: 'visible',
           transition: 'margin-top 0.4s ease, max-height 0.4s ease, opacity 0.4s ease',
@@ -363,14 +363,13 @@ const VoidPortal: React.FC<VoidPortalProps> = ({
               />
               {/* 武器卡片 */}
               <div
-                className="relative p-4 rounded-xl"
+                className="relative p-3 md:p-4 rounded-xl w-[180px] md:w-[210px]"
                 style={{
                   background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)',
                   border: `3px solid ${color}`,
                   boxShadow: isCarePackage
                     ? `0 0 20px ${color}, 0 0 35px rgba(255, 215, 0, 0.3), 0 6px 12px rgba(0, 0, 0, 0.5)`
                     : `0 0 15px ${color}80, 0 6px 12px rgba(0, 0, 0, 0.5)`,
-                  minWidth: 210,
                 }}
               >
                 {isCarePackage && (

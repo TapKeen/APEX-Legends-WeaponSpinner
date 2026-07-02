@@ -8,10 +8,10 @@ interface ToggleSwitchProps {
 
 const ToggleSwitch: React.FC<ToggleSwitchProps> = ({ label, checked, onChange }) => {
   return (
-    <div className="flex items-center gap-4">
-      <span className="text-white font-medium text-sm">{label}</span>
+    <div className="flex items-center gap-2 md:gap-4">
+      <span className="text-white font-medium text-xs md:text-sm">{label}</span>
       <div
-        className="relative w-16 h-8 bg-gray-600 rounded-full cursor-pointer transition-all duration-300"
+        className="relative w-12 h-7 md:w-16 md:h-8 bg-gray-600 rounded-full cursor-pointer transition-all duration-300"
         style={{
           background: checked ? 'linear-gradient(135deg, #4ade80 0%, #22c55e 100%)' : '#4a5568',
           boxShadow: checked ? '0 0 15px rgba(74, 222, 128, 0.5)' : 'none'
@@ -19,11 +19,12 @@ const ToggleSwitch: React.FC<ToggleSwitchProps> = ({ label, checked, onChange })
         onClick={() => onChange(!checked)}
       >
         <div
-          className="absolute top-1 w-6 h-6 rounded-full transition-all duration-300"
+          className="absolute top-1 w-5 h-5 md:w-6 md:h-6 rounded-full transition-all duration-300"
           style={{
-            left: checked ? 'calc(100% - 28px)' : '4px',
+            left: checked ? undefined : '4px',
+            right: checked ? '4px' : undefined,
             background: 'white',
-            boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)'
+            boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
           }}
         />
       </div>
@@ -38,9 +39,9 @@ interface LanguageSwitchProps {
 
 const LanguageSwitch: React.FC<LanguageSwitchProps> = ({ language, onChange }) => {
   return (
-    <div className="flex gap-2">
+    <div className="flex gap-1 md:gap-2">
       <button
-        className={`px-4 py-2 rounded-lg font-bold transition-all duration-300 ${
+        className={`px-3 py-1.5 md:px-4 md:py-2 rounded-lg font-bold text-sm md:text-base transition-all duration-300 ${
           language === 'cn'
             ? 'bg-gradient-to-r from-red-600 to-orange-500 text-white shadow-lg'
             : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
@@ -53,7 +54,7 @@ const LanguageSwitch: React.FC<LanguageSwitchProps> = ({ language, onChange }) =
         CN
       </button>
       <button
-        className={`px-4 py-2 rounded-lg font-bold transition-all duration-300 ${
+        className={`px-3 py-1.5 md:px-4 md:py-2 rounded-lg font-bold text-sm md:text-base transition-all duration-300 ${
           language === 'en'
             ? 'bg-gradient-to-r from-red-600 to-orange-500 text-white shadow-lg'
             : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
@@ -101,17 +102,17 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
 
   return (
     <div
-      className="p-6 rounded-xl"
+      className="p-4 md:p-6 rounded-xl w-full"
       style={{
         background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)',
         border: '2px solid rgba(233, 69, 96, 0.3)',
         boxShadow: '0 8px 16px rgba(0, 0, 0, 0.4)'
       }}
     >
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-3 md:gap-4">
         {/* 语言切换 */}
-        <div className="flex items-center gap-4">
-          <span className="text-white font-medium text-sm">
+        <div className="flex items-center gap-2 md:gap-4">
+          <span className="text-white font-medium text-xs md:text-sm">
             {language === 'cn' ? '语言' : 'Language'}
           </span>
           <LanguageSwitch language={language} onChange={onLanguageChange} />

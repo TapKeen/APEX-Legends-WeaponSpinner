@@ -22,16 +22,16 @@ const Home: React.FC = () => {
 
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center p-8"
+      className="min-h-screen flex flex-col items-center justify-center p-4 md:p-8"
       style={{
         background: 'linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 50%, #16213e 100%)',
         backgroundAttachment: 'fixed'
       }}
     >
       {/* 标题 */}
-      <div className="mb-8 text-center">
+      <div className="mb-4 md:mb-8 text-center">
         <h1
-          className="text-5xl font-bold mb-6"
+          className="text-2xl md:text-5xl font-bold mb-2 md:mb-6"
           style={{
             color: '#FFD700',
             textShadow: '0 0 20px rgba(255, 215, 0, 0.5), 0 4px 8px rgba(0, 0, 0, 0.3)',
@@ -40,16 +40,16 @@ const Home: React.FC = () => {
         >
           {language === 'cn' ? 'APEX Legends 武器抽取转盘' : 'APEX Legends Weapon Spinner'}
         </h1>
-        <p className="text-gray-400 text-lg mb-2">
+        <p className="text-gray-400 text-sm md:text-lg mb-1 md:mb-2">
           {language === 'cn' ? '为你的下一局游戏选择武器搭配' : 'Choose your weapon loadout for the next game'}
         </p>
-        <p className="text-gray-500 text-sm italic">
+        <p className="text-gray-500 text-xs md:text-sm italic">
           {language === 'cn' ? '*数据更新至第29赛季' : '*Data updated to Season 29'}
         </p>
       </div>
 
       {/* 控制面板 */}
-      <div className="mb-8">
+      <div className="mb-4 md:mb-8 w-full max-w-md">
         <ControlPanel
           language={language}
           onLanguageChange={setLanguage}
@@ -73,16 +73,16 @@ const Home: React.FC = () => {
       <button
         onClick={handleSpin}
         disabled={spinning}
-        className="mt-4 px-12 py-4 rounded-xl font-bold text-2xl transition-all duration-300"
+        className="mt-4 px-6 py-3 md:px-12 md:py-4 rounded-xl font-bold text-base md:text-2xl transition-all duration-300"
         style={{
           background: spinning
             ? 'linear-gradient(135deg, #4a5568 0%, #2d3748 100%)'
             : 'linear-gradient(135deg, #e94560 0%, #ff6b35 100%)',
           color: 'white',
-          border: '3px solid #FFD700',
+          border: '2px solid #FFD700',
           boxShadow: spinning
             ? 'none'
-            : '0 8px 20px rgba(233, 69, 96, 0.5), 0 0 30px rgba(255, 215, 0, 0.3)',
+            : '0 4px 10px rgba(233, 69, 96, 0.5), 0 0 15px rgba(255, 215, 0, 0.3)',
           cursor: spinning ? 'not-allowed' : 'pointer',
           opacity: spinning ? 0.6 : 1
         }}
